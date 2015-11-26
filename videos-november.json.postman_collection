@@ -1,0 +1,503 @@
+{
+	"id": "8f868fc9-e5da-873a-3628-5a643dde6242",
+	"name": "SoftUniExam",
+	"description": "",
+	"order": [
+		"556150b6-89b1-a642-a23d-91f3550cfb4f",
+		"da1f686a-158e-33be-3592-fef86d4c04cd",
+		"2887542c-3e0e-952c-31fa-fe76a873196b",
+		"1991ae34-1960-572d-ca51-2cc96c076154",
+		"65eb1ef0-072a-988f-a96a-f1840d53ae1c",
+		"65577e23-e0eb-09ad-b437-7c4b1bce68b6",
+		"dfe4937b-3e72-298f-06a0-a42f6804f6e3",
+		"8e334d43-abe9-a95f-f01d-490e7a13ba43",
+		"343a8af5-c1a4-32b2-a9c2-0b4e5e38cf2c",
+		"6b41ecd9-38bf-dd3b-40f6-6a91822d5aa7",
+		"4e49bf7f-181b-f249-17ff-4c3aa386fc8c",
+		"cb576b7f-2283-c3dd-a074-dfba2a10b06d"
+	],
+	"folders": [],
+	"timestamp": 1447888050678,
+	"owner": "",
+	"remoteLink": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "1991ae34-1960-572d-ca51-2cc96c076154",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer\n",
+			"url": "localhost:9016/api/tags",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "POST",
+			"collectionId": "8f868fc9-e5da-873a-3628-5a643dde6242",
+			"data": [
+				{
+					"key": "name",
+					"value": "Tom&Jerry for adults",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "isAdultContent",
+					"value": "true",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "Create Tag",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1447888643429,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "2887542c-3e0e-952c-31fa-fe76a873196b",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer\n",
+			"url": "localhost:9016/api/videos/1/addTag",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "POST",
+			"collectionId": "8f868fc9-e5da-873a-3628-5a643dde6242",
+			"data": [
+				{
+					"key": "tagId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "Add Tag to Video",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1447888592707,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "343a8af5-c1a4-32b2-a9c2-0b4e5e38cf2c",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer\n",
+			"url": "localhost:9016/api/playlists/1/addTag",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "POST",
+			"collectionId": "8f868fc9-e5da-873a-3628-5a643dde6242",
+			"data": [
+				{
+					"key": "name",
+					"value": "My Adult Music",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "isAdultContent",
+					"value": "false",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "videoId",
+					"value": "1",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "tagId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "Add Tag to Playlist",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1447888859021,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "4e49bf7f-181b-f249-17ff-4c3aa386fc8c",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer\n",
+			"url": "localhost:9016/api/Account/Register",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "My Adult Music",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "isAdultContent",
+					"value": "false",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "videoId",
+					"value": "1",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "tagId",
+					"value": "1",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "username",
+					"value": "testUser",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "Pa55w0rd!",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "passwordConfirm",
+					"value": "Pa55w0rd!",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "grant_type",
+					"value": "passowrd",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1447889309307,
+			"name": "Register",
+			"description": "",
+			"collectionId": "8f868fc9-e5da-873a-3628-5a643dde6242",
+			"responses": []
+		},
+		{
+			"id": "556150b6-89b1-a642-a23d-91f3550cfb4f",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer\n",
+			"url": "localhost:9016/api/videos",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "title",
+					"value": "War and War",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "locationId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1447888526621,
+			"name": "Get All Videos",
+			"description": "",
+			"collectionId": "8f868fc9-e5da-873a-3628-5a643dde6242",
+			"responses": []
+		},
+		{
+			"id": "65577e23-e0eb-09ad-b437-7c4b1bce68b6",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer\n",
+			"url": "localhost:9016/api/Tags/1",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "PUT",
+			"collectionId": "8f868fc9-e5da-873a-3628-5a643dde6242",
+			"data": [
+				{
+					"key": "name",
+					"value": "Tom&Jerry for children",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "isAdultContent",
+					"value": "false",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "Edit Tag",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1447888731138,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "65eb1ef0-072a-988f-a96a-f1840d53ae1c",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer\n",
+			"url": "localhost:9016/api/Tags/1",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "DELETE",
+			"collectionId": "8f868fc9-e5da-873a-3628-5a643dde6242",
+			"data": [
+				{
+					"key": "name",
+					"value": "Tom&Jerry for adults",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "isAdultContent",
+					"value": "true",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "Delete Tag",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1447888681740,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "6b41ecd9-38bf-dd3b-40f6-6a91822d5aa7",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer\n",
+			"url": "localhost:9016/api/Playlists?startPage=0&limit=5&locationId=1&adultContentAllowed=true",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"collectionId": "8f868fc9-e5da-873a-3628-5a643dde6242",
+			"data": [],
+			"dataMode": "params",
+			"name": "List Playlits",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1447888910107,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "8e334d43-abe9-a95f-f01d-490e7a13ba43",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer\n",
+			"url": "localhost:9016/api/playlists/1/addVideo",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "POST",
+			"collectionId": "8f868fc9-e5da-873a-3628-5a643dde6242",
+			"data": [
+				{
+					"key": "name",
+					"value": "My Adult Music",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "isAdultContent",
+					"value": "false",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "videoId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "Add Video to Playlist",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1447888825260,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "cb576b7f-2283-c3dd-a074-dfba2a10b06d",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer\n",
+			"url": "localhost:9016/Token",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "POST",
+			"collectionId": "8f868fc9-e5da-873a-3628-5a643dde6242",
+			"data": [
+				{
+					"key": "name",
+					"value": "My Adult Music",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "isAdultContent",
+					"value": "false",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "videoId",
+					"value": "1",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "tagId",
+					"value": "1",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "username",
+					"value": "testUser",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "password",
+					"value": "Pa55w0rd!",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "passwordConfirm",
+					"value": "Pa55w0rd!",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "grant_type",
+					"value": "password",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "username",
+					"value": "testUser",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "passowrd",
+					"value": "Pa55w0rd!",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "Get User Token",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1447889359646,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "da1f686a-158e-33be-3592-fef86d4c04cd",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer\n",
+			"url": "localhost:9016/api/videos",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "POST",
+			"collectionId": "8f868fc9-e5da-873a-3628-5a643dde6242",
+			"data": [
+				{
+					"key": "title",
+					"value": "War and War",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "locationId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "Create Video",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1447888540166,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "dfe4937b-3e72-298f-06a0-a42f6804f6e3",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer\n",
+			"url": "localhost:9016/api/Playlists",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "POST",
+			"collectionId": "8f868fc9-e5da-873a-3628-5a643dde6242",
+			"data": [
+				{
+					"key": "name",
+					"value": "My Adult Music",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "isAdultContent",
+					"value": "false",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "Create Playlist",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1447888777253,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}

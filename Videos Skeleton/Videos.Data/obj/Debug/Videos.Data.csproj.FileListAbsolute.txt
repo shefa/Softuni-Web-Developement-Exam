@@ -1,0 +1,16 @@
+C:\Users\Venom1724\Desktop\EXAM\Videos Skeleton\Videos.Data\bin\Debug\Videos.Data.dll.config
+C:\Users\Venom1724\Desktop\EXAM\Videos Skeleton\Videos.Data\bin\Debug\Videos.Data.dll
+C:\Users\Venom1724\Desktop\EXAM\Videos Skeleton\Videos.Data\bin\Debug\Videos.Data.pdb
+C:\Users\Venom1724\Desktop\EXAM\Videos Skeleton\Videos.Data\bin\Debug\EntityFramework.dll
+C:\Users\Venom1724\Desktop\EXAM\Videos Skeleton\Videos.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Venom1724\Desktop\EXAM\Videos Skeleton\Videos.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Venom1724\Desktop\EXAM\Videos Skeleton\Videos.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Venom1724\Desktop\EXAM\Videos Skeleton\Videos.Data\bin\Debug\Videos.Models.dll
+C:\Users\Venom1724\Desktop\EXAM\Videos Skeleton\Videos.Data\bin\Debug\Videos.Models.pdb
+C:\Users\Venom1724\Desktop\EXAM\Videos Skeleton\Videos.Data\bin\Debug\EntityFramework.xml
+C:\Users\Venom1724\Desktop\EXAM\Videos Skeleton\Videos.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Venom1724\Desktop\EXAM\Videos Skeleton\Videos.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Venom1724\Desktop\EXAM\Videos Skeleton\Videos.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Venom1724\Desktop\EXAM\Videos Skeleton\Videos.Data\obj\Debug\Videos.Data.csprojResolveAssemblyReference.cache
+C:\Users\Venom1724\Desktop\EXAM\Videos Skeleton\Videos.Data\obj\Debug\Videos.Data.dll
+C:\Users\Venom1724\Desktop\EXAM\Videos Skeleton\Videos.Data\obj\Debug\Videos.Data.pdb
